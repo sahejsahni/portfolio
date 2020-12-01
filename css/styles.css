@@ -11,6 +11,10 @@ body {
 	height: 96px;
 	background-color: #13F0A8;
 }
+/*.navbar-float {
+	position: fixed;
+	z-index: 100;
+}*/
 .navbar, .navbar-brand {
 	padding: 0px;
 	width: 100%;
@@ -75,4 +79,17 @@ h4.hero {
 .btn-secondary:hover {
 	color: #000;
 	background-color: #cccccc;
+}
+.case-studies {
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+.project-cover {
+	margin-bottom: 1.5rem;
+	height: 456px;
+}
+.section-link {
+	margin-right: -30px;
+	position: relative;
+	top: 16px;
 }
