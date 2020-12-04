@@ -3,59 +3,143 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <title>Sahej's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <link rel="stylesheet" href="./css/styles.css">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./css/locomotive-scroll.css"></link>
+    
   </head>
   <body>
-    <!-- Navbar -->
-    <section class="navbar-float">
-      <div class="container">
-        <div class="row"> 
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><div class="logo"></div></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a id="nav-link-projects" class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+<!-- NAVBAR -->
+        <section class="navbar-float">
+            <div>
+                <div class="row"> 
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"><div class="logo"></div></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav  ml-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a id="nav-link-projects" class="nav-link" href="#">Projects</a>
+                              </li>
+                              <li class="nav-item ">
+                                <a class="nav-link" href="#">Gallery</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                              </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="navbar-blur"></div>
+        </section>
+    <div class="o-scroll" id="js-scroll" data-scroll-container style="z-index: -1">
+
+<!-- HERO -->
+        <div data-scroll-section>
+                <section class="hero" id="hero-section">
+                  <div class="container">
+                    <div class="row text-center justify-content-center">
+                      <h1 class="hero" data-scroll data-scroll-speed="3" data-scroll-position="top">Expressive Designs, Impressive Websites & Practical UX.</h1>
+                      <h4 class="hero" data-scroll data-scroll-speed="2" data-scroll-position="top">Hi, I am <a href class="link" style="text-decoration: underline;">Sahej</a> 👋<br>Welcome to my Design Practice.</h4>
+                    </div>
+                    <div class="row justify-content-center hero" data-scroll data-scroll-speed="0" data-scroll-position="top">
+                      <button type="button" class="btn btn-primary">Hire Me</button>
+                      <button type="button" class="btn btn-secondary">Or, View Portfolio</button>
+                    </div>
+                  </div>
+                </section>
         </div>
-      </div>
-    </section>
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="container">
-        <div class="row text-center justify-content-center">
-          <h1 class="hero">Expressive Designs, Impressive Websites & Practical UX.</h1>
-          <h4 class="hero">Hi, I am <a href class="link" style="text-decoration: underline;">Sahej</a> 👋<br>Welcome to my Design Practice.</h4>
+<!-- CASE STUDIES -->
+        <div data-scroll-section>
+                <section class="case-studies">
+                  <div class="container">
+                    <div class="row col-md-12 mb-5 "  data-scroll data-scroll-speed="0" data-scroll-position="top">
+                      <h1>Case Studies</h1>
+                      <a href="#" class="ml-auto link section-link">Visit Porfolio 👉</a>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 case-study-card" data-scroll data-scroll-speed="1">
+                        <div class="project-cover o-image_wrapper" data-scroll data-scroll-speed="1" data-scroll-repeat>
+                          <div class="o-image" data-scroll data-scroll-speed="-1.5" data-scroll-position="top" style="background-image: url(./img/cs1.jpg);  background-size: cover; height: 150%; margin-top: -10rem">
+                          </div>
+                        </div>
+                        <h4 >Project Name</h4>
+                        <p >This appears to be working fine for me, but I have noticed I have to close and reopen prototype tabs when I make major changes.</p>
+                      </div>
+                      <div class="col-md-6 case-study-card" data-scroll data-scroll-speed="1">
+                        <div class="project-cover o-image_wrapper" data-scroll data-scroll-speed="1" data-scroll-repeat>
+                          <div class="o-image" data-scroll data-scroll-speed="-1.5" data-scroll-position="top" style="background-image: url(./img/cs2.png);  background-size: cover; height: 150%; margin-top: -10rem">
+                          </div>
+                        </div>
+                        <h4 >Project Name</h4>
+                        <p >This appears to be working fine for me, but I have noticed I have to close and reopen prototype tabs when I make major changes.</p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
         </div>
-        <div class="row justify-content-center hero">
-          <button type="button" class="btn btn-primary">Hire Me</button>
-          <button type="button" class="btn btn-secondary">Or, View Portfolio</button>
-        </div>
-      </div>
-    </section>
+<!-- REVIEWS -->
+        <section class="c-section" data-scroll-section>
+                <div id="scroll-direction">
+                    <div class="c-direction-block_wrapper">
+                        <div class="c-direction-block" id="direction">
+                            <div class="c-direction-block_item -one">
+                                <span  data-scroll data-scroll-direction="horizontal" data-scroll-speed="6" data-scroll-target="#direction">
+                                    I'm moving in this direction
+                                </span>
+                            </div>
+                            <div class="c-direction-block_item -two">
+                                <span  data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8" data-scroll-target="#direction">
+                                    And in this direction
+                                </span>
+                            </div>
+                            <div class="c-direction-block_item -three">
+                                <span  data-scroll data-scroll-direction="horizontal" data-scroll-speed="9" data-scroll-target="#direction" data-scroll-delay="0.05">
+                                    Sooo customizable. Right?
+                                </span>
+                            </div>
+                            <div class="c-direction-block_item -four">
+                                <span  data-scroll data-scroll-direction="horizontal" data-scroll-speed="15" data-scroll-target="#direction">
+                                    I can also go in this direction
+                                </span>
+                            </div>
+                            <div class="c-direction-block_item -five">
+                                <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#direction" data-scroll-delay="0.05">
+                                    Ok, enough!!!!
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+
+    
+    <div data-scroll-container>
+    <div data-scroll-section>
+        <h1 data-scroll>Hey</h1>
+        <p data-scroll>👋</p>
+    </div>
+    <div data-scroll-section>
+        <h2 data-scroll data-scroll-speed="1">What's up?</h2>
+        <p data-scroll data-scroll-speed="2">😬</p>
+    </div>
+    </div>
     <!-- Case Studies -->
     <section class="case-studies">
       <div class="container">
@@ -87,6 +171,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
+    <!-- loco script -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
